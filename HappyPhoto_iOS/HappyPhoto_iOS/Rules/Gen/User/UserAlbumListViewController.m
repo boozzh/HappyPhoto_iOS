@@ -1,38 +1,24 @@
 //
-//  DefaultViewController.m
+//  UserAlbumListViewController.m
 //  HappyPhoto_iOS
 //
 //  Created by 张 驰 on 13-11-10.
 //  Copyright (c) 2013年 MySense. All rights reserved.
 //
 
-#import "DefaultViewController.h"
+#import "UserAlbumListViewController.h"
 
-@interface DefaultViewController ()
-
+@interface UserAlbumListViewController ()
 
 @end
 
-@implementation DefaultViewController
-
-@synthesize btnUserAlbumList;
-
-//转到 分类照片
-- (IBAction)goUserAlbumList:(id)sender{
-    
-    UserAlbumListViewController *userAlbumListViewController = [[UserAlbumListViewController alloc]initWithNibName:@"UserAlbumList_iPhone5" bundle:nil];
-    
-    [self.view.superview addSubview:userAlbumListViewController.view];
-    
-    [self.view removeFromSuperview];
-}
+@implementation UserAlbumListViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        NSLog(@"test");
     }
     return self;
 }

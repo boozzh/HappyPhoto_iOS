@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UserAlbumListViewController.h"
 
 @interface DefaultViewController : UIViewController
+
+@property (nonatomic, retain) IBOutlet UIButton *btnUserAlbumList;
+- (IBAction)goUserAlbumList:(id)sender;
 
 @end

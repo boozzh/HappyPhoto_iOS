@@ -19,14 +19,16 @@
 		2C9041F3182FC9FB005429E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9041DB182FC9FB005429E5 /* UIKit.framework */; };
 		2C9041FB182FC9FB005429E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C9041F9182FC9FB005429E5 /* InfoPlist.strings */; };
 		2C9041FD182FC9FB005429E5 /* HappyPhoto_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9041FC182FC9FB005429E5 /* HappyPhoto_iOSTests.m */; };
-		2C904209182FCBE1005429E5 /* Default_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C904208182FCBE1005429E5 /* Default_iPhone5.xib */; };
-		2C90420C182FCC1D005429E5 /* UserLogin_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C90420B182FCC1D005429E5 /* UserLogin_iPhone5.xib */; };
-		2C90420E182FCC45005429E5 /* UserRegister_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C90420D182FCC45005429E5 /* UserRegister_iPhone5.xib */; };
 		2C904214182FCC7A005429E5 /* DefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C904213182FCC7A005429E5 /* DefaultViewController.m */; };
 		2C904217182FCC8D005429E5 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C904216182FCC8D005429E5 /* IntroViewController.m */; };
 		2C90421A182FCCA1005429E5 /* UserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C904219182FCCA1005429E5 /* UserLoginViewController.m */; };
 		2C90421D182FCCB6005429E5 /* UserRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C90421C182FCCB6005429E5 /* UserRegisterViewController.m */; };
-		2C90421F182FCCDC005429E5 /* Intro_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C90421E182FCCDC005429E5 /* Intro_iPhone5.xib */; };
+		2C90422D182FD78F005429E5 /* Default_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C90422F182FD78F005429E5 /* Default_iPhone5.xib */; };
+		2C904232182FD812005429E5 /* Intro_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C904234182FD812005429E5 /* Intro_iPhone5.xib */; };
+		2C904236182FD822005429E5 /* UserRegister_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C904238182FD822005429E5 /* UserRegister_iPhone5.xib */; };
+		2C90423A182FD82B005429E5 /* UserLogin_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C90423C182FD82B005429E5 /* UserLogin_iPhone5.xib */; };
+		2C904240182FD9FE005429E5 /* UserAlbumList_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C904242182FD9FE005429E5 /* UserAlbumList_iPhone5.xib */; };
+		2C904246182FDBF7005429E5 /* UserAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C904245182FDBF7005429E5 /* UserAlbumListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +58,6 @@
 		2C9041F8182FC9FB005429E5 /* HappyPhoto_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappyPhoto_iOSTests-Info.plist"; sourceTree = "<group>"; };
 		2C9041FA182FC9FB005429E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C9041FC182FC9FB005429E5 /* HappyPhoto_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyPhoto_iOSTests.m; sourceTree = "<group>"; };
-		2C904208182FCBE1005429E5 /* Default_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Default_iPhone5.xib; path = Template/Default/Default_iPhone5.xib; sourceTree = "<group>"; };
-		2C90420B182FCC1D005429E5 /* UserLogin_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserLogin_iPhone5.xib; path = Template/Default/User/UserLogin_iPhone5.xib; sourceTree = "<group>"; };
-		2C90420D182FCC45005429E5 /* UserRegister_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserRegister_iPhone5.xib; path = Template/Default/User/UserRegister_iPhone5.xib; sourceTree = "<group>"; };
 		2C904212182FCC7A005429E5 /* DefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultViewController.h; path = Rules/Gen/DefaultViewController.h; sourceTree = "<group>"; };
 		2C904213182FCC7A005429E5 /* DefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DefaultViewController.m; path = Rules/Gen/DefaultViewController.m; sourceTree = "<group>"; };
 		2C904215182FCC8D005429E5 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = Rules/Gen/IntroViewController.h; sourceTree = "<group>"; };
@@ -67,7 +66,20 @@
 		2C904219182FCCA1005429E5 /* UserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserLoginViewController.m; path = Rules/Gen/User/UserLoginViewController.m; sourceTree = "<group>"; };
 		2C90421B182FCCB6005429E5 /* UserRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserRegisterViewController.h; path = Rules/Gen/User/UserRegisterViewController.h; sourceTree = "<group>"; };
 		2C90421C182FCCB6005429E5 /* UserRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserRegisterViewController.m; path = Rules/Gen/User/UserRegisterViewController.m; sourceTree = "<group>"; };
-		2C90421E182FCCDC005429E5 /* Intro_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Intro_iPhone5.xib; path = Template/Default/Intro_iPhone5.xib; sourceTree = "<group>"; };
+		2C904225182FD35B005429E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2C904226182FD35B005429E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2C904230182FD793005429E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/Default_iPhone5.xib"; sourceTree = "<group>"; };
+		2C904231182FD7A3005429E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Default_iPhone5.xib; sourceTree = "<group>"; };
+		2C904233182FD812005429E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Intro_iPhone5.xib; sourceTree = "<group>"; };
+		2C904235182FD816005429E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/Intro_iPhone5.xib"; sourceTree = "<group>"; };
+		2C904237182FD822005429E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/UserRegister_iPhone5.xib; sourceTree = "<group>"; };
+		2C904239182FD827005429E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/UserRegister_iPhone5.xib"; sourceTree = "<group>"; };
+		2C90423B182FD82B005429E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/UserLogin_iPhone5.xib; sourceTree = "<group>"; };
+		2C90423D182FD82E005429E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/UserLogin_iPhone5.xib"; sourceTree = "<group>"; };
+		2C904241182FD9FE005429E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/UserAlbumList_iPhone5.xib; sourceTree = "<group>"; };
+		2C904243182FDA00005429E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zh-Hans"; path = "zh-Hans.lproj/UserAlbumList_iPhone5.xib"; sourceTree = "<group>"; };
+		2C904244182FDBF7005429E5 /* UserAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserAlbumListViewController.h; path = Rules/Gen/User/UserAlbumListViewController.h; sourceTree = "<group>"; };
+		2C904245182FDBF7005429E5 /* UserAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserAlbumListViewController.m; path = Rules/Gen/User/UserAlbumListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				2C90420A182FCBFD005429E5 /* User */,
-				2C904208182FCBE1005429E5 /* Default_iPhone5.xib */,
-				2C90421E182FCCDC005429E5 /* Intro_iPhone5.xib */,
+				2C904234182FD812005429E5 /* Intro_iPhone5.xib */,
+				2C90422F182FD78F005429E5 /* Default_iPhone5.xib */,
 			);
 			name = Default;
 			sourceTree = "<group>";
@@ -187,8 +199,9 @@
 		2C90420A182FCBFD005429E5 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				2C90420B182FCC1D005429E5 /* UserLogin_iPhone5.xib */,
-				2C90420D182FCC45005429E5 /* UserRegister_iPhone5.xib */,
+				2C90423C182FD82B005429E5 /* UserLogin_iPhone5.xib */,
+				2C904238182FD822005429E5 /* UserRegister_iPhone5.xib */,
+				2C904242182FD9FE005429E5 /* UserAlbumList_iPhone5.xib */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -220,6 +233,8 @@
 				2C904219182FCCA1005429E5 /* UserLoginViewController.m */,
 				2C90421B182FCCB6005429E5 /* UserRegisterViewController.h */,
 				2C90421C182FCCB6005429E5 /* UserRegisterViewController.m */,
+				2C904244182FDBF7005429E5 /* UserAlbumListViewController.h */,
+				2C904245182FDBF7005429E5 /* UserAlbumListViewController.m */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -285,6 +300,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 2C9041CB182FC9FB005429E5;
 			productRefGroup = 2C9041D5182FC9FB005429E5 /* Products */;
@@ -303,10 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C9041E2182FC9FB005429E5 /* InfoPlist.strings in Resources */,
-				2C90421F182FCCDC005429E5 /* Intro_iPhone5.xib in Resources */,
-				2C90420C182FCC1D005429E5 /* UserLogin_iPhone5.xib in Resources */,
-				2C904209182FCBE1005429E5 /* Default_iPhone5.xib in Resources */,
-				2C90420E182FCC45005429E5 /* UserRegister_iPhone5.xib in Resources */,
+				2C904232182FD812005429E5 /* Intro_iPhone5.xib in Resources */,
+				2C904240182FD9FE005429E5 /* UserAlbumList_iPhone5.xib in Resources */,
+				2C90423A182FD82B005429E5 /* UserLogin_iPhone5.xib in Resources */,
+				2C904236182FD822005429E5 /* UserRegister_iPhone5.xib in Resources */,
+				2C90422D182FD78F005429E5 /* Default_iPhone5.xib in Resources */,
 				2C9041EA182FC9FB005429E5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C904246182FDBF7005429E5 /* UserAlbumListViewController.m in Sources */,
 				2C9041E8182FC9FB005429E5 /* StartDelegate.m in Sources */,
 				2C90421A182FCCA1005429E5 /* UserLoginViewController.m in Sources */,
 				2C90421D182FCCB6005429E5 /* UserRegisterViewController.m in Sources */,
@@ -358,6 +376,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C9041E1182FC9FB005429E5 /* en */,
+				2C904225182FD35B005429E5 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -366,8 +385,59 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C9041FA182FC9FB005429E5 /* en */,
+				2C904226182FD35B005429E5 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C90422F182FD78F005429E5 /* Default_iPhone5.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C904230182FD793005429E5 /* zh-Hans */,
+				2C904231182FD7A3005429E5 /* en */,
+			);
+			name = Default_iPhone5.xib;
+			path = Template/Default;
+			sourceTree = "<group>";
+		};
+		2C904234182FD812005429E5 /* Intro_iPhone5.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C904233182FD812005429E5 /* en */,
+				2C904235182FD816005429E5 /* zh-Hans */,
+			);
+			name = Intro_iPhone5.xib;
+			path = Template/Default;
+			sourceTree = "<group>";
+		};
+		2C904238182FD822005429E5 /* UserRegister_iPhone5.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C904237182FD822005429E5 /* en */,
+				2C904239182FD827005429E5 /* zh-Hans */,
+			);
+			name = UserRegister_iPhone5.xib;
+			path = Template/Default/User;
+			sourceTree = "<group>";
+		};
+		2C90423C182FD82B005429E5 /* UserLogin_iPhone5.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C90423B182FD82B005429E5 /* en */,
+				2C90423D182FD82E005429E5 /* zh-Hans */,
+			);
+			name = UserLogin_iPhone5.xib;
+			path = Template/Default/User;
+			sourceTree = "<group>";
+		};
+		2C904242182FD9FE005429E5 /* UserAlbumList_iPhone5.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C904241182FD9FE005429E5 /* en */,
+				2C904243182FDA00005429E5 /* zh-Hans */,
+			);
+			name = UserAlbumList_iPhone5.xib;
+			path = Template/Default/User;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

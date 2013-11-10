@@ -10,11 +10,18 @@
 
 @implementation StartDelegate
 
+@synthesize defaultViewController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.defaultViewController = [[DefaultViewController alloc]initWithNibName:@"Default_iPhone5" bundle:nil];
+    self.window.rootViewController = self.defaultViewController;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

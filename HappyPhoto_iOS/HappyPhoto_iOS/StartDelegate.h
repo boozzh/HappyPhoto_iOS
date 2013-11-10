@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DefaultViewController.h"
 
 @interface StartDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) DefaultViewController *defaultViewController;
 
 @end
